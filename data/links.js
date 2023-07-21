@@ -1,14 +1,4 @@
-import {
-    FiBook,
-    FiClipboard,
-    FiGithub,
-    FiHome,
-    FiInstagram,
-    FiLinkedin,
-    FiList,
-    FiMail,
-    FiTwitter
-} from "react-icons/fi";
+import {FiClipboard, FiGithub, FiHome, FiInstagram, FiLinkedin, FiList, FiMail, FiTwitter} from "react-icons/fi";
 import {FaDiscord} from "react-icons/fa";
 
 const links = [
