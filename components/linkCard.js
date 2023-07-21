@@ -1,7 +1,7 @@
-import {Avatar, Button, Card, CardBody, Center, HStack, Text, VStack} from "@chakra-ui/react";
+import {Button, Center, Text} from "@chakra-ui/react";
 import Link from "next/link";
 
-const LinkCard = ({ link }) => {
+const LinkCard = ({link}) => {
     return (
         <>
             <Link href={link.url} key={link.name} target='_blank' rel='noopener noreferrer'>
