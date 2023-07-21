@@ -14,11 +14,16 @@ import {
 import Layout from "@/components/layout";
 import links from "@/data/links";
 import LinkCard from "@/components/linkCard";
+import SEO from "@/components/seo";
 
 
 export default function Home() {
     return (
         <>
+            <SEO
+                title={'Links'}
+                description={'A list of links to my social media and other websites.'}
+            />
             <Layout>
                 <Center>
                     <Avatar size={'xl'}/>
