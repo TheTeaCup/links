@@ -1,4 +1,5 @@
 import {Box, Flex, useColorModeValue} from "@chakra-ui/react";
+import Footer from "@/components/footer";
 
 const confetti = {
     light: {
@@ -36,7 +37,7 @@ const Layout = ({children}) => {
                     {children}
                 </Box>
             </Flex>
-
+<Footer/>
         </>
     )
 }
