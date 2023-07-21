@@ -1,11 +1,21 @@
-import {FiGithub, FiInstagram, FiLinkedin, FiTwitter} from "react-icons/fi";
+import {
+    FiBook,
+    FiClipboard,
+    FiGithub,
+    FiHome,
+    FiInstagram,
+    FiLinkedin,
+    FiList,
+    FiMail,
+    FiTwitter
+} from "react-icons/fi";
 import {FaDiscord} from "react-icons/fa";
 
 const links = [
     {
         name: 'Personal Website',
         url: 'https://hunterwilson.dev',
-        icon: '',
+        icon: <FiHome/>,
         type: 'website'
     },
     {
@@ -38,6 +48,24 @@ const links = [
         icon: <FaDiscord/>,
         type: 'social'
     },
+    {
+        name: 'Paste Bin',
+        url: 'https://bin.hunterwilson.dev',
+        icon: <FiClipboard/>,
+        type: 'website'
+    },
+    {
+        name: 'Todo List',
+        url: 'https://todo.hunterwilson.dev',
+        icon: <FiList/>,
+        type: 'website'
+    },
+    {
+        name: 'Mail',
+        url: 'mailto:hello@hunterwilson.dev',
+        icon: <FiMail/>,
+        type: 'other'
+    }
 
 ]
 
