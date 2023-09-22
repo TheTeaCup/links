@@ -10,7 +10,7 @@ export default function App({Component, pageProps}) {
         <>
             <DefaultSeo {...SEO}/>
             <Script async defer data-website-id="47a88bb8-2434-4e22-9847-6f901299dc00"
-                    src="https://analytics.theteacup.dev/umami.js"></Script>
+                    src="https://analytics.theteacup.dev/script.js"></Script>
             <ChakraProvider theme={theme}>
                 <Component {...pageProps} />
             </ChakraProvider>
