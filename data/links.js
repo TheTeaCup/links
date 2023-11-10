@@ -1,4 +1,14 @@
-import {FiClipboard, FiGithub, FiHome, FiInstagram, FiLinkedin, FiList, FiMail, FiTwitter} from "react-icons/fi";
+import {
+    FiClipboard,
+    FiCloud,
+    FiGithub,
+    FiHome,
+    FiInstagram,
+    FiLinkedin,
+    FiList,
+    FiMail,
+    FiTwitter
+} from "react-icons/fi";
 import {FaDiscord} from "react-icons/fa";
 
 const links = [
@@ -48,6 +58,12 @@ const links = [
         name: 'Todo List',
         url: 'https://todo.hunterwilson.dev',
         icon: <FiList/>,
+        type: 'website'
+    },
+    {
+        name: 'Status Page',
+        url: 'https://status.hunterwilson.dev',
+        icon: <FiCloud/>,
         type: 'website'
     },
     {
